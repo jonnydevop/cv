@@ -1,0 +1,160 @@
+body{
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+hr{
+  /* border: dotted lightgrey 6px;
+  border-bottom: none;
+  width: 3%; */
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 6px;
+  border-color: lightgrey;
+  width: 4%;
+  margin: 100px auto;
+}
+
+p{
+  line-height: 2;
+
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Allura', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding: 10px;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+.footer-link {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 12px;
+  text-decoration: none;
+}
+a{
+  color: #EAF6F6;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.circular {
+  border-radius: 100%;
+}
+
+.skill-row{
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 40%;
+
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 20%;
+  bottom: 40%;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 20%;
+  top: 10%;
+}
+
+.code-img{
+  width: 25%;
+  float: left;
+  margin: 0 30px 0 0;
+}
+
+.backend-img{
+  width: 25%;
+  float: right;
+  margin: 0 0 0 30px;
+}
+
+.circular-icons {
+  width: 10%;
+  margin: 0 auto 0 auto;
+  display: inline-block;
+  padding: 0 3% 0 3%;
+}
+
+
+.btn {
+	background:linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
+	background-color:#11cdd4;
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	padding:11px 20px;
+	text-decoration:none;
+
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #11999e 5%, #11cdd4 100%);
+	background-color:#11999e;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
